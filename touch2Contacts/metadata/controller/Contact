@@ -1,0 +1,54 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Contact"
+    },
+    "designerId": "a01196f7-2665-4dee-a0a5-36ae0bd2780f",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "contactlist",
+                "designer|targetType": "Ext.dataview.List",
+                "fn": "onListItemTap",
+                "implHandler": [
+                    "var panel = dataview.up('contactnavigation');\r",
+                    "\r",
+                    "panel.setActiveItem(1);\r",
+                    "\r",
+                    "panel.down('contactdetails').setRecord(record);"
+                ],
+                "name": "itemtap"
+            },
+            "designerId": "cd3bfbcc-c82e-4c5d-8cc4-1eda884c0472"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "button#back",
+                "designer|targetType": "Ext.Button",
+                "fn": "onButtonTap",
+                "implHandler": [
+                    "button.up('contactnavigation').setActiveItem(0);"
+                ],
+                "name": "tap"
+            },
+            "designerId": "9a0fb65a-ffad-41a7-a5af-51f9c062ec1e"
+        }
+    ]
+}

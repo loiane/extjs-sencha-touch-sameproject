@@ -1,0 +1,24 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "Contact"
+        ],
+        "name": "ExtMVC",
+        "requires": [
+            "Ext.toolbar.Paging"
+        ],
+        "stores": [
+            "Contacts"
+        ],
+        "views": [
+            "contact.Grid"
+        ]
+    },
+    "designerId": "application"
+}

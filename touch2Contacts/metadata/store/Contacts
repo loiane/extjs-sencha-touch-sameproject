@@ -1,0 +1,44 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "designer|userClassName": "Contacts",
+        "model": "Contact",
+        "storeId": "contactsStore"
+    },
+    "designerId": "4d998469-ab10-4d4b-b721-d201d1cf71f0",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "api": null,
+                "url": "http://localhost/blog/projects/extjs-sencha-touch-sameproject/php/listaContatos.php"
+            },
+            "designerId": "b2ff98f3-4b08-488b-93ca-b28fefcc4720",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "rootProperty": "contacts"
+                    },
+                    "designerId": "3fc2bd2e-39c4-4e04-b56c-2206c782bfd3"
+                }
+            ]
+        }
+    ]
+}

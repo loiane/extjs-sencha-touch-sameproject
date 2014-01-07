@@ -1,0 +1,62 @@
+{
+    "name": "touch2Contacts",
+    "settings": {
+        "cmd": {
+            "license": "gpl",
+            "cmdVersion": "4.0.1.45",
+            "frameworkVersion": "2.3.0.328"
+        },
+        "canvasControls": {
+            "viewportSize": {
+                "name": "iPhone",
+                "builtIn": true,
+                "height": 480,
+                "width": 320
+            },
+            "viewportOrientation": "portrait"
+        },
+        "urlPrefix": "",
+        "exportPath": "",
+        "spacesToIndent": 4,
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true,
+        "lastBuildSelection": {
+            "value": "iosSimulate",
+            "display": "Simulate iOS app"
+        }
+    },
+    "xdsVersion": "3.0.1",
+    "xdsBuild": 1343,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000004,
+    "framework": "touch23",
+    "viewOrderMap": {
+        "view": [
+            "f4f79f8b-7d79-47cf-b39a-2e168a51eb5f",
+            "54c7b48a-eadb-4ede-8e0b-df3fc339e4f7",
+            "ddb3ca8c-731f-43c0-b5fc-e297e0f89f49"
+        ],
+        "store": [
+            "4d998469-ab10-4d4b-b721-d201d1cf71f0"
+        ],
+        "controller": [
+            "a01196f7-2665-4dee-a0a5-36ae0bd2780f"
+        ],
+        "model": [
+            "ff3c3915-1864-465c-82eb-e9f8b6039dac"
+        ],
+        "resource": [
+            "4e7a31d5-c7cb-4926-9205-242b94bc615a",
+            "33c9035b-296d-458b-81e8-1063202c2505",
+            "afa0f5b8-56c4-46fb-a51c-587cce9519ec",
+            "da0f0085-68df-4373-b9e7-83cc71c846b2"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

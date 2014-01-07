@@ -1,0 +1,62 @@
+{
+    "type": "Ext.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "contactdetails",
+        "designer|userClassName": "contact.Details"
+    },
+    "designerId": "54c7b48a-eadb-4ede-8e0b-df3fc339e4f7",
+    "cn": [
+        {
+            "type": "Ext.TitleBar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "title": "Contact Details"
+            },
+            "designerId": "f3258641-da38-4e79-ade2-2421e618c157",
+            "cn": [
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|uiInterfaceName": "back",
+                        "itemId": "back",
+                        "text": "Back",
+                        "ui": "back"
+                    },
+                    "designerId": "df1539d5-d75e-44c7-b0be-2b24967a82a5"
+                }
+            ]
+        },
+        {
+            "type": "Ext.XTemplate",
+            "reference": {
+                "name": "tpl",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "tpl",
+                "implHandler": [
+                    "<h4>{name}</h4>\r",
+                    "<div class=\"field\"><span class=\"label\">Phone: </span>{phone}</div>\r",
+                    "<div class=\"field\"><span class=\"label\">Email: </span>{email}</div>"
+                ]
+            },
+            "designerId": "8b55b137-c206-4b73-b0f5-40f856788b6a"
+        }
+    ]
+}

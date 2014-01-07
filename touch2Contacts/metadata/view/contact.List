@@ -1,0 +1,54 @@
+{
+    "type": "Ext.dataview.List",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "contactlist",
+        "designer|userClassName": "contact.List",
+        "itemId": "mylist",
+        "store": "contactsStore"
+    },
+    "designerId": "f4f79f8b-7d79-47cf-b39a-2e168a51eb5f",
+    "cn": [
+        {
+            "type": "Ext.XTemplate",
+            "reference": {
+                "name": "itemTpl",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "itemTpl",
+                "implHandler": [
+                    "<div>{name}</div>"
+                ]
+            },
+            "designerId": "deebd06b-2ed5-43ba-8748-aeb12514ea49"
+        },
+        {
+            "type": "Ext.plugin.ListPaging",
+            "reference": {
+                "name": "plugins",
+                "type": "array"
+            },
+            "codeClass": null,
+            "designerId": "932681f2-493f-431b-9091-02e5f2bb7c2b"
+        },
+        {
+            "type": "Ext.TitleBar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "title": "Contacts"
+            },
+            "designerId": "08ae612e-3b09-4d1a-8101-0e88af9e3e4b"
+        }
+    ]
+}

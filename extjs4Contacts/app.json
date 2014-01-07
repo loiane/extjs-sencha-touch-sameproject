@@ -1,0 +1,8 @@
+{
+   "name": "ExtMVC",
+   "requires": [],
+   "id": "88898157-49ad-4acb-81cb-09f8e61cf4ac",
+   "resources": [
+      "resources/css/app.css"
+   ]
+}

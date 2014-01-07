@@ -1,0 +1,96 @@
+{
+    "type": "Ext.grid.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userAlias": "contactgrid",
+        "designer|userClassName": "contact.Grid",
+        "height": null,
+        "iconCls": "icon-grid",
+        "store": "Contacts",
+        "title": "Contacts",
+        "width": null
+    },
+    "designerId": "98d4007f-7f03-4454-b900-9c75fa9cd8c9",
+    "cn": [
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "name",
+                "flex": 1,
+                "text": "NAME",
+                "width": 170
+            },
+            "designerId": "0515716a-aff6-47a6-a8af-064dda87e952"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "phone",
+                "flex": 1,
+                "text": "PHONE #",
+                "width": 160
+            },
+            "designerId": "739d9ebf-761f-435f-b7ab-69435d2868da"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "email",
+                "flex": 1,
+                "text": "EMAIL",
+                "width": 170
+            },
+            "designerId": "410ea188-e0d1-4bde-851d-1171fc7cf568"
+        },
+        {
+            "type": "Ext.grid.View",
+            "reference": {
+                "name": "viewConfig",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "dataview",
+                "emptyText": "no contacts found"
+            },
+            "designerId": "a5d5e33d-3004-42d5-b461-863c481fc924"
+        },
+        {
+            "type": "Ext.toolbar.Paging",
+            "reference": {
+                "name": "dockedItems",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "pagingToolbar",
+                "displayInfo": true,
+                "dock": "top",
+                "emptyMsg": "No contacts to display",
+                "store": "Contacts",
+                "width": 360
+            },
+            "designerId": "7b5aabee-17c5-403d-82f4-c97c334c0647"
+        }
+    ]
+}
